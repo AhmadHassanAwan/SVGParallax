@@ -1,13 +1,12 @@
     .background {
         position: relative;
         width: 100%;
-        /*    height:1700px !important; */
         height:3000px !important;
     }
 
     .background > div{
-        /*height:1700px !important; */
         height:3000px !important;
+        height: 335px;
     }
 
     .background img{
@@ -22,7 +21,6 @@
         background-position: top;
         background-repeat: no-repeat;
         height:2200px;
-        /*original height: 1650px;*/
         width: 100%;
         position: absolute;
         -webkit-clip-path: url(#myClip);
@@ -49,11 +47,13 @@
     }
 
 
-    .foreground i{display: block;
+    .foreground i{
+        display: block;
         margin: 0px;
         padding: 0px;
         width: 100%;
-        text-align: center;}
+        text-align: center;
+    }
 
     /* Parallax Transition End */
 
@@ -66,30 +66,17 @@
         font-family: 'BrownRegular', sans-serif;
     }
 
-    #svg-container{
-        height:1px !important;
-    }
-
-    .lightbox{display:none;}
-
+    #svg-container { height:1px !important; }
 
     @media (min-width: 1600px) { 
-        .foreground .maintext{
-            font-size: 130px !important;
-            top:5% !important;}
-
+        .foreground .maintext{ font-size: 130px !important; top:5% !important; }
         .foreground span{font-size:28px !important;}
     }
 
 
     @media (min-width: 1200px) and (max-width:1600px) { 
-        .foreground .maintext{
-            font-size: 90px !important;}
-        .foreground span{font-size:20px !important;}
+        .foreground .maintext { font-size: 90px !important; }
+        .foreground span { font-size:20px !important; }
     }
-    @media (min-width: 767px) {
-
-        .foreground { 
-            background-attachment: fixed; background-image: url('foreground.jpg');
-        }
-    }
+    .foreground { background-attachment: fixed; background-image: url('http://www.intrawallpaper.com/static/images/backgrounds-background-hd-wallpaper-02-download-widescreen-high-resolution-wallpaper.jpg');}
+    .background > div { background: url(http://www.intrawallpaper.com/static/images/rainbow_texture679.jpg) 50% 0% / cover no-repeat fixed;}

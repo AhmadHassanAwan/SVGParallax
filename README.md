@@ -5,4 +5,4 @@ It is a simple, CSS Parallax which uses a background, a foreground and an SVG (c
 When scrolled, both the background and foreground stays fixed but the SVG moves up revealing the background depending
 upon it's coordinates.
 
-Demo: https://codepen.io/AhmadHassan/pen/ZWRWyE
+Demo: https://codepen.io/AhmadHassan/full/ZWRWyE/

@@ -1,0 +1,101 @@
+    .transition-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .background {
+        position: relative;
+        width: 100%;
+        /*    height:1700px !important; */
+        height:3000px !important;
+    }
+
+    .background > div{
+        /*height:1700px !important; */
+        height:3000px !important;
+    }
+
+    .background img{
+        width:100%;
+        height:100%;
+        position: fixed;
+    }
+
+    .foreground {
+        padding-bottom:400px !important;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        height:2200px;
+        /*original height: 1650px;*/
+        width: 100%;
+        position: absolute;
+        -webkit-clip-path: url(#myClip);
+        -moz-clip-path: url(#myClip);
+        -ms-clip-path: url(#myClip);
+        -o-clip-path: url(#myClip);
+        clip-path: url(#myClip);
+    }
+
+    .foreground .maintext{
+        text-align: center;
+        width: 50%;
+        height: 60%;
+        overflow: auto;
+        margin: auto;
+        position: absolute;
+        top: -15%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        font-size:50px;
+        color: white;
+        line-height: 50px;
+    }
+
+
+    .foreground i{display: block;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        text-align: center;}
+
+    /* Parallax Transition End */
+
+    html,
+    body {
+        margin:0px; padding: 0px;
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+        -webkit-font-smoothing: antialiased;
+        font-family: 'BrownRegular', sans-serif;
+    }
+
+    #svg-container{
+        height:1px !important;
+    }
+
+    .lightbox{display:none;}
+
+
+    @media (min-width: 1600px) { 
+        .foreground .maintext{
+            font-size: 130px !important;
+            top:5% !important;}
+
+        .foreground span{font-size:28px !important;}
+    }
+
+
+    @media (min-width: 1200px) and (max-width:1600px) { 
+        .foreground .maintext{
+            font-size: 90px !important;}
+        .foreground span{font-size:20px !important;}
+    }
+    @media (min-width: 767px) {
+
+        .foreground { 
+            background-attachment: fixed; background-image: url('foreground.jpg');
+        }
+    }

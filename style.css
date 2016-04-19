@@ -78,5 +78,5 @@
         .foreground .maintext { font-size: 90px !important; }
         .foreground span { font-size:20px !important; }
     }
-    .foreground { background-attachment: fixed; background-image: url('http://www.intrawallpaper.com/static/images/backgrounds-background-hd-wallpaper-02-download-widescreen-high-resolution-wallpaper.jpg');}
-    .background > div { background: url(http://www.intrawallpaper.com/static/images/rainbow_texture679.jpg) 50% 0% / cover no-repeat fixed;}
+    .foreground { background-attachment: fixed; background-image: url('foreground.jpg'); }
+    .background > div { background: url('background.jpg') 50% 0% / cover no-repeat fixed; }
